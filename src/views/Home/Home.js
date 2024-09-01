@@ -2,21 +2,21 @@ import React from 'react'
 import "./Home.css"
 
 import FoodCard from "./../../components/FoodCard/FoodCard"
-import { products } from '../../config/data'
+import { PRODUCTS ,MAIN_TITLE, PRODUCT_LIST} from '../../config/data'
 
 function Home() {
   return (
     <div>
       <h1 className="title">
-        <u>Happy Cafe</u>
+        <u>{MAIN_TITLE}</u>
       </h1>
       <div className="menu-card">
         <h2>
-          MENU
+          {PRODUCT_LIST}
         </h2>
         <div className="food-card-container">
 
-          {products.map((foodItem) => {
+          {PRODUCTS.map((foodItem) => {
 
             return <FoodCard
               imgUrl={foodItem.imgUrl}

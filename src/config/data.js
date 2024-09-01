@@ -1,4 +1,8 @@
-const products = [
+const MAIN_TITLE = " ☺️Happy Cafe☺️"
+const PRODUCT_LIST = "MENU"
+
+
+const PRODUCTS = [
     {
       imgUrl: "https://img.freepik.com/premium-photo/puri-bhaji-indian-semi-dry-potato-spicy-recipe-also-known-as-batata-aloo-ki-sabji-served-with-fried-poori-selective-focus_466689-12815.jpg?w=996",
       title: "Aloo Puri",
@@ -30,5 +34,7 @@ const products = [
   ]
 
   export{
-    products
+    PRODUCTS,
+    MAIN_TITLE,
+    PRODUCT_LIST
   }
